@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.container{
+  height: 50%;
+  width: 50%;
+  align-self: center;
+  justify-content: center;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+label{
+  color: rgba(18, 99, 99, 0.792);
+  font-weight: bold;
+  display: block;
+}
+
+label:after{
+  content: ":";
+}
+
